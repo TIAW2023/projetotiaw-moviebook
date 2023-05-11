@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="telaAdmin.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
+    <!-- cabeçalho -->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #f3d3f1;">
+
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src=img/logo.PNG width="100" alt="100">
+            </a>
+            <div class="pesquisa">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Pagina inicial</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Sugestões</a>
+                        </li>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Meu Perfil-->
+    <div class="container">
+        <div class="row">
+            <div id="form" class="col-12 col-md-5 p-2 border mt-4">
+                <form>
+                    <h3>Perfil do administrador</h3>
+                    <fieldset disabled>
+                        <label for="disabledTextInput" class="form-label">Nome do administrador:</label>
+                        <input type="text" id="disabledTextInput" class="form-control" placeholder="Iury Silva Taveira">
+                    </fieldset>
+                    <fieldset disabled>
+                        <fieldset disabled>
+                            <label for="disabledTextInput" class="form-label">E-mail do administrador:</label>
+                            <input type="text" id="disabledTextInput" class="form-control"
+                                placeholder="iurytaveiraz@gmail.com">
+                        </fieldset>
+                    </fieldset>
+                    <label class="form-label">Data de nascimento:</label>
+                    <div class="row pt-2">
+                        <div class="col">
+                            <div class="row">
+                                <div class="col">
+                                    <select class="form-select" aria-label="Disabled select example" disabled>
+                                        <option value="categoria">18</option>
+                                        <option value="categoria">01</option>
+                                        <option value="categoria">02</option>
+                                        <option value="categoria">03</option>
+                                        <option value="categoria">04</option>
+                                        <option value="categoria">05</option>
+                                        <option value="categoria">06</option>
+                                        <option value="categoria">07</option>
+                                        <option value="categoria">08</option>
+                                        <option value="categoria">09</option>
+                                        <option value="categoria">10</option>
+                                        <option value="categoria">11</option>
+                                        <option value="categoria">12</option>
+                                        <option value="categoria">13</option>
+                                        <option value="categoria">14</option>
+                                        <option value="categoria">15</option>
+                                        <option value="categoria">16</option>
+                                        <option value="categoria">17</option>
+                                        <option value="categoria">18</option>
+                                        <option value="categoria">19</option>
+                                        <option value="categoria">20</option>
+                                        <option value="categoria">21</option>
+                                        <option value="categoria">22</option>
+                                        <option value="categoria">23</option>
+                                        <option value="categoria">24</option>
+                                        <option value="categoria">25</option>
+                                        <option value="categoria">26</option>
+                                        <option value="categoria">27</option>
+                                        <option value="categoria">28</option>
+                                        <option value="categoria">29</option>
+                                        <option value="categoria">30</option>
+                                        <option value="categoria">31</option>
+                                    </select>
+                                </div>
+                                <div class="col">
+                                    <select class="form-select" aria-label="Disabled select example" disabled>
+                                        <option value="categoria">03</option>
+                                        <option value="categoria">01</option>
+                                        <option value="categoria">02</option>
+                                        <option value="categoria">03</option>
+                                        <option value="categoria">04</option>
+                                        <option value="categoria">05</option>
+                                        <option value="categoria">06</option>
+                                        <option value="categoria">07</option>
+                                        <option value="categoria">08</option>
+                                        <option value="categoria">09</option>
+                                        <option value="categoria">10</option>
+                                        <option value="categoria">11</option>
+                                        <option value="categoria">12</option>
+                                    </select>
+                                </div>
+                                <div class="col">
+                                    <select class="form-select" aria-label="Disabled select example" disabled>
+                                        <option value="categoria">2002</option>
+                                        <option value="categoria">1990</option>
+                                        <option value="categoria">1991</option>
+                                        <option value="categoria">1992</option>
+                                        <option value="categoria">1993</option>
+                                        <option value="categoria">1994</option>
+                                        <option value="categoria">1995</option>
+                                        <option value="categoria">1996</option>
+                                        <option value="categoria">1997</option>
+                                        <option value="categoria">1998</option>
+                                        <option value="categoria">1999</option>
+                                        <option value="categoria">2000</option>
+                                        <option value="categoria">2001</option>
+                                        <option value="categoria">2002</option>
+                                        <option value="categoria">2003</option>
+                                        <option value="categoria">2004</option>
+                                        <option value="categoria">2005</option>
+                                        <option value="categoria">2006</option>
+                                        <option value="categoria">2007</option>
+                                        <option value="categoria">2008</option>
+                                        <option value="categoria">2009</option>
+                                        <option value="categoria">2010</option>
+                                        <option value="categoria">2011</option>
+                                        <option value="categoria">2012</option>
+                                        <option value="categoria">2013</option>
+                                        <option value="categoria">2014</option>
+                                        <option value="categoria">2015</option>
+                                        <option value="categoria">2016</option>
+                                        <option value="categoria">2017</option>
+                                        <option value="categoria">2018</option>
+                                        <option value="categoria">2019</option>
+                                        <option value="categoria">2020</option>
+                                        <option value="categoria">2021</option>
+                                        <option value="categoria">2022</option>
+                                        <option value="categoria">2023</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <label for="interesses">Gêneros favoritos:</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckCheckedDisabled" checked
+                            disabled>
+                        <label class="form-check-label" for="flexCheckCheckedDisabled">
+                            Comédia
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckCheckedDisabled" checked
+                            disabled>
+                        <label class="form-check-label" for="flexCheckCheckedDisabled">
+                            Ação
+                        </label>
+                    </div>
+                </form>
+            </div>
+            <!--Troca de senha-->
+            <div class="col-12 col-md-3 p 2 border mt-4 ">
+                <form>
+                    <h3>Trocar senha</h3>
+                    <div class="row g-3 align-items-center">
+                        <div class="col-auto">
+                            <label for="inputPassword6" class="col-form-label">Senha atual</label>
+                        </div>
+                        <div class="col-auto">
+                            <input type="password" id="inputPassword6" class="form-control"
+                                aria-describedby="passwordHelpInline">
+                        </div>
+                        <div class="row g-3 align-items-center">
+                            <div class="col-auto">
+                                <label for="inputPassword6" class="col-form-label">Nova senha</label>
+                            </div>
+                            <div class="col-auto">
+                                <input type="password" id="inputPassword6" class="form-control"
+                                    aria-describedby="passwordHelpInline">
+                            </div>
+                            <div class="col-auto">
+                                <span id="passwordHelpInline" class="form-text">
+                                    Deve ter de 8 a 20 caracteres.
+                                </span>
+                            </div>
+                        </div>
+                        <a class="btn btn-light" style="background-color: #f3d3f1;" href="#" role="button">Salvar</a>
+                    </div>
+                </form>
+            </div>
+            <div id="form" class="col-12 col-md-4 p-2 border mt-4">
+                <form>
+                    <h3>Adicionar conteúdo</h3>
+                    <div class="form-group">
+                        <label for="Nome do livro ou filme">Nome do livro ou filme</label>
+                        <input type="email" class="form-control" id="Nome do livro ou filme"
+                            placeholder="Digite o nome do livro ou filme">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect1">Gênero</label>
+                        <select class="form-control" id="exampleFormControlSelect1">
+                            <option>Selecione um gênero</option>
+                            <option>Romance</option>
+                            <option>Ação</option>
+                            <option>Ficção</option>
+                            <option>Comédia</option>
+                            <option>Suspense</option>
+                            <option>Terror</option>
+                            <option>Drama</option>
+                            <option>Infantil</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlFile1">Adicione imagem:</label>
+                        <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Resumo:</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+                    </div>
+                    <a class="btn btn-light" style="background-color: #f3d3f1;" href="#" role="button">Salvar</a>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--Favoritos-->
+    <h3>Meus favoritos:</h3>
+    <!-- INICIO CARROSSEL 1-->
+    <div class="container">
+       <div class="row">
+           <div id="carouselLivro2" class="carousel slide  col-12 col-md-4 mt-4" data-bs-ride="false">
+               <h4>LIVROS:</h4>
+               <div id="carouselLivro2" class="carousel slide">
+                   <div class="carousel-indicators">
+                     <button type="button" data-bs-target="#carouselLivro2" data-bs-slide-to="0" class="active"
+                       aria-current="true" aria-label="Slide 1"></button>
+                     <button type="button" data-bs-target="#carouselLivro2" data-bs-slide-to="1"
+                       aria-label="Slide 2"></button>
+                     <button type="button" data-bs-target="#carouselLivro2" data-bs-slide-to="2"
+                       aria-label="Slide 3"></button>
+                   </div>
+                   <div class="carousel-inner">
+                     <div class="carousel-item active">
+                       <img src="img/guerraCivilLivro.jpeg" class="d-block w-100" alt="...">
+                     </div>
+                     <div class="carousel-item">
+                       <img src="img/homemAvol7Livro.jpeg" class="d-block w-100" alt="...">
+                     </div>
+                     <div class="carousel-item">
+                       <img src="img/HomemFlivro.jpeg" class="d-block w-100" alt="...">
+                     </div>
+                   </div>
+                   <button class="carousel-control-prev" type="button" data-bs-target="#carouselLivro2"
+                     data-bs-slide="prev">
+                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                     <span class="visually-hidden">Previous</span>
+                   </button>
+                   <button class="carousel-control-next" type="button" data-bs-target="#carouselLivro2"
+                     data-bs-slide="next">
+                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                     <span class="visually-hidden">Next</span>
+                   </button>
+                 </div>
+           </div>
+
+           <div id="carouselFilme2" class="carousel slide col-12 col-md-4 mt-4" data-bs-ride="false">
+               <h4>FILMES:</h4>
+
+               <div id="carouselfilme2" class="carousel slide">
+                   <div class="carousel-indicators">
+                       <button type="button" data-bs-target="#carouselfilme2" data-bs-slide-to="0"
+                           class="active" aria-current="true" aria-label="Slide 1"></button>
+                       <button type="button" data-bs-target="#carouselfilme2" data-bs-slide-to="1"
+                           aria-label="Slide 2"></button>
+                       <button type="button" data-bs-target="#carouselfilme2" data-bs-slide-to="2"
+                           aria-label="Slide 3"></button>
+                   </div>
+                   <div class="carousel-inner">
+                       <div class="carousel-item active">
+                           <img src="img/endGameFilme.jpeg" class="d-block w-100" alt="...">
+                       </div>
+                       <div class="carousel-item">
+                           <img src="img/homemAsvfilme.jpeg" class="d-block w-100" alt="...">
+                       </div>
+                       <div class="carousel-item">
+                           <img src="img/panteraNegraFilme.jpeg" class="d-block w-100" alt="...">
+                       </div>
+                   </div>
+                   <button class="carousel-control-prev" type="button" data-bs-target="#carouselfilme2"
+                       data-bs-slide="prev">
+                       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                       <span class="visually-hidden">Previous</span>
+                   </button>
+                   <button class="carousel-control-next" type="button" data-bs-target="#carouselfilme2"
+                       data-bs-slide="next">
+                       <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                       <span class="visually-hidden">Next</span>
+                   </button>
+               </div>
+           </div>
+
+           <!-- INICIO BOTÃO 2 -->
+           <div class="container">
+               <div class="row">
+                   <br>
+                   <div class="container">
+                       <div class="row">
+                           <div class="col=1 m-auto">
+
+                               <a href="file:///C:/Users/User/Desktop/TIAW%20OK/index.html#">
+                                   <i class="fa-solid fa-heart" style="font-size: 15px; color: red;"></i>
+                               </a>
+                           </div>
+                       </div>
+                   </div>
+                   <!-- FIM BOTÃO 2 -->
+               </div>
+           </div>
+           <!-- FIM CARROSSEL 2 -->
+       </div>
+   </div>
+   <!-- INICIO CARROSSEL 2-->
+   <div class="container">
+       <div class="row">
+           <div id="carouselLivro" class="carousel slide  col-12 col-md-4 mt-4" data-bs-ride="false">
+               <h4>LIVROS:</h4>
+               <div id="carouselExampleIndicators" class="carousel slide">
+                   <div class="carousel-indicators">
+                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                       aria-current="true" aria-label="Slide 1"></button>
+                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                       aria-label="Slide 2"></button>
+                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                       aria-label="Slide 3"></button>
+                   </div>
+                   <div class="carousel-inner">
+                     <div class="carousel-item active">
+                       <img src="img/guerraCivilLivro.jpeg" class="d-block w-100" alt="...">
+                     </div>
+                     <div class="carousel-item">
+                       <img src="img/homemAvol7Livro.jpeg" class="d-block w-100" alt="...">
+                     </div>
+                     <div class="carousel-item">
+                       <img src="img/HomemFlivro.jpeg" class="d-block w-100" alt="...">
+                     </div>
+                   </div>
+                   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                     data-bs-slide="prev">
+                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                     <span class="visually-hidden">Previous</span>
+                   </button>
+                   <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                     data-bs-slide="next">
+                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                     <span class="visually-hidden">Next</span>
+                   </button>
+                 </div>
+           </div>
+
+           <div id="carouselFilme" class="carousel slide col-12 col-md-4 mt-4" data-bs-ride="false">
+               <h4>FILMES:</h4>
+
+               <div id="carouselfilme" class="carousel slide">
+                   <div class="carousel-indicators">
+                       <button type="button" data-bs-target="#carouselfilme" data-bs-slide-to="0"
+                           class="active" aria-current="true" aria-label="Slide 1"></button>
+                       <button type="button" data-bs-target="#carouselfilme" data-bs-slide-to="1"
+                           aria-label="Slide 2"></button>
+                       <button type="button" data-bs-target="#carouselfilme" data-bs-slide-to="2"
+                           aria-label="Slide 3"></button>
+                   </div>
+                   <div class="carousel-inner">
+                       <div class="carousel-item active">
+                           <img src="img/endGameFilme.jpeg" class="d-block w-100" alt="...">
+                       </div>
+                       <div class="carousel-item">
+                           <img src="img/homemAsvfilme.jpeg" class="d-block w-100" alt="...">
+                       </div>
+                       <div class="carousel-item">
+                           <img src="img/panteraNegraFilme.jpeg7" class="d-block w-100" alt="...">
+                       </div>
+                   </div>
+                   <button class="carousel-control-prev" type="button" data-bs-target="#carouselfilme"
+                       data-bs-slide="prev">
+                       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                       <span class="visually-hidden">Previous</span>
+                   </button>
+                   <button class="carousel-control-next" type="button" data-bs-target="#carouselfilme"
+                       data-bs-slide="next">
+                       <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                       <span class="visually-hidden">Next</span>
+                   </button>
+               </div>
+           </div>
+
+           <!-- INICIO BOTÃO 2 -->
+           <div class="container">
+               <div class="row">
+                   <br>
+                   <div class="container">
+                       <div class="row">
+                           <div class="col=1 m-auto">
+
+                               <a href="file:///C:/Users/User/Desktop/TIAW%20OK/index.html#">
+                                   <i class="fa-solid fa-heart" style="font-size: 15px; color: red;"></i>
+                               </a>
+                           </div>
+                       </div>
+                   </div>
+                   <!-- FIM BOTÃO 2 -->
+               </div>
+           </div>
+           <!-- FIM CARROSSEL 2 -->
+       </div>
+   </div>
+    <!--Rodapé-->
+    <footer>
+        <div id="footer-content">
+
+            <div id="footer_contacts">
+                <h4>Redes sociais</h4>
+                <div id="footer_social_media">
+                    <a href="#" class="footer-link" id="instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="#" class="footer-link" id="facebook">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+
+                    <a href="#" class="footer-link" id="whatsapp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                    <a href="#" class="footer-link" id="twitter">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+
+            <ul class="footer-list">
+                <li>
+                    <h4>Links rápidos</h4>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Ajuda</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Política de privacidade</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Perguntas frequentes</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Termos de uso</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Reportar um problema</a>
+                </li>
+            </ul>
+
+
+            <ul class="footer-list">
+                <li>
+                    <h4>Contate-nos</h4>
+                </li>
+                <a href="#" class="footer-link">
+                    CNPJ 17.888.987/00001-01
+
+                </a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">
+                        Rua 8 de Setembro, 349 <br>
+                        Belo Horizonte / MG
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">
+                        <i class="fa-regular fa-envelope"></i>
+                        moviebook@gmail.com
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">
+                        <i class="fa-solid fa-phone"></i> (31) 999005859
+                    </a>
+                </li>
+            </ul>
+
+
+        </div>
+
+        <div id="footer_copyright">
+            <p>&#169 2023 moviebook.com.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
