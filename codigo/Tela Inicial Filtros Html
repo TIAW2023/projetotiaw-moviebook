@@ -33,8 +33,21 @@
 
         </div>
 
-        <div class="bx bx-menu" id="menu-icon"></div>
+        <div class="bx bx-menu" id="menu-icon">
+            <div class="menu">
+                <a href="#">
+                    <h6>Sugestões</h6>
+                </a>
+                    <a href="#">
+                      <h6>Meu perfil</h6>
+                    </a>
+            </div>
+        </div>
+
+
     </nav>
+
+    
 
     <main>
 
